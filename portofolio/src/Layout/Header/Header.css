@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  height: auto;
+  width: 150px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Header {
+    width: 100%;
+  }
+}
