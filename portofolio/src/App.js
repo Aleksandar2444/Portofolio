@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Layout/Header/Header";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./Pages/About/About";
 import MySkills from "./Pages/MySkills/MySkills";
 import Work from "./Pages/Work/Work";
@@ -13,8 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/home-page" />} />
-        <Route path="/home-page" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/my-skills" element={<MySkills />} />
         <Route path="/work" element={<Work />} />
