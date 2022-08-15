@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/home-page/static/css/main.4c5542d2.css",
-    "main.js": "/home-page/static/js/main.a4be1298.js",
-    "static/media/daily-fashion.jpg": "/home-page/static/media/daily-fashion.8068424ebd3a751c80f4.jpg",
-    "static/media/countrypedia.jpg": "/home-page/static/media/countrypedia.ce272b61d23adc2086ca.jpg",
-    "static/media/find-the-word.jpg": "/home-page/static/media/find-the-word.7bf093d3c299359fe4bb.jpg",
-    "static/media/oryx-landscape.jpg": "/home-page/static/media/oryx-landscape.e03258ee73a3cd3adbb6.jpg",
-    "static/media/calculator.jpg": "/home-page/static/media/calculator.cd7c610d6610c1a217e3.jpg",
-    "static/media/todo-app.jpg": "/home-page/static/media/todo-app.247eef8e4e6a6c89572c.jpg",
-    "static/media/card-reveal-landscape.jpg": "/home-page/static/media/card-reveal-landscape.0e9e9c1909871bd628f3.jpg",
-    "static/media/image-reflection.jpg": "/home-page/static/media/image-reflection.eb3b6896e4f33d2a9c18.jpg",
-    "static/media/3D-cube.jpg": "/home-page/static/media/3D-cube.b8faf408d1bbd34bbf32.jpg",
-    "static/media/progress-bar.jpg": "/home-page/static/media/progress-bar.f55154a4f4d913af8053.jpg",
-    "static/media/timer.jpg": "/home-page/static/media/timer.6435e978f4e81445b95b.jpg",
-    "static/media/digital-clock.jpg": "/home-page/static/media/digital-clock.ba3df206184b59045b7c.jpg",
-    "static/media/share-btn-landscape.jpg": "/home-page/static/media/share-btn-landscape.ba469e3f3c0f0653011a.jpg",
-    "index.html": "/home-page/index.html",
-    "main.4c5542d2.css.map": "/home-page/static/css/main.4c5542d2.css.map",
-    "main.a4be1298.js.map": "/home-page/static/js/main.a4be1298.js.map"
+    "main.css": "/Portofolio/static/css/main.2acbd701.css",
+    "main.js": "/Portofolio/static/js/main.4038ea09.js",
+    "static/media/daily-fashion.jpg": "/Portofolio/static/media/daily-fashion.8068424ebd3a751c80f4.jpg",
+    "static/media/countrypedia.jpg": "/Portofolio/static/media/countrypedia.ce272b61d23adc2086ca.jpg",
+    "static/media/find-the-word.jpg": "/Portofolio/static/media/find-the-word.7bf093d3c299359fe4bb.jpg",
+    "static/media/oryx-landscape.jpg": "/Portofolio/static/media/oryx-landscape.e03258ee73a3cd3adbb6.jpg",
+    "static/media/calculator.jpg": "/Portofolio/static/media/calculator.cd7c610d6610c1a217e3.jpg",
+    "static/media/todo-app.jpg": "/Portofolio/static/media/todo-app.247eef8e4e6a6c89572c.jpg",
+    "static/media/card-reveal-landscape.jpg": "/Portofolio/static/media/card-reveal-landscape.0e9e9c1909871bd628f3.jpg",
+    "static/media/image-reflection.jpg": "/Portofolio/static/media/image-reflection.eb3b6896e4f33d2a9c18.jpg",
+    "static/media/3D-cube.jpg": "/Portofolio/static/media/3D-cube.b8faf408d1bbd34bbf32.jpg",
+    "static/media/progress-bar.jpg": "/Portofolio/static/media/progress-bar.f55154a4f4d913af8053.jpg",
+    "static/media/timer.jpg": "/Portofolio/static/media/timer.6435e978f4e81445b95b.jpg",
+    "static/media/digital-clock.jpg": "/Portofolio/static/media/digital-clock.ba3df206184b59045b7c.jpg",
+    "static/media/share-btn-landscape.jpg": "/Portofolio/static/media/share-btn-landscape.ba469e3f3c0f0653011a.jpg",
+    "index.html": "/Portofolio/index.html",
+    "main.2acbd701.css.map": "/Portofolio/static/css/main.2acbd701.css.map",
+    "main.4038ea09.js.map": "/Portofolio/static/js/main.4038ea09.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c5542d2.css",
-    "static/js/main.a4be1298.js"
+    "static/css/main.2acbd701.css",
+    "static/js/main.4038ea09.js"
   ]
 }
