@@ -1,6 +1,8 @@
 import "./Contact.css";
 import { IoIosArrowForward, IoIosArrowBack, IoIosPin } from "react-icons/io";
 import GoogleMapReact from "google-map-react";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 
 const MyMarker = ({ text }) => <div className="marker">{text}</div>;
 
@@ -11,6 +13,29 @@ const Contact = (props) => {
       lng: 21.83891,
     },
     zoom: 7,
+  };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ni2etjp",
+        "my_gmail2444",
+        form.current,
+        "BuPgZj0y0U4S2Fwy4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
 
   return (
@@ -74,12 +99,13 @@ const Contact = (props) => {
             <IoIosArrowForward />
           </div>
           <div className="form__container">
-            <form className="form">
+            <form ref={form} onSubmit={sendEmail} className="form">
               <ul>
                 <li>
                   <input
                     type="text"
                     placeholder="Name"
+                    name="from_name"
                     className="input__field"
                   />
                 </li>
@@ -87,6 +113,7 @@ const Contact = (props) => {
                   <input
                     type="text"
                     placeholder="Email"
+                    name="from_email"
                     className="input__field"
                   />
                 </li>
@@ -94,6 +121,7 @@ const Contact = (props) => {
                   <input
                     type="text"
                     placeholder="Subject"
+                    name="subject"
                     className="input__field"
                   />
                 </li>
@@ -101,11 +129,14 @@ const Contact = (props) => {
                   <textarea
                     className="text__area"
                     placeholder="Message"
+                    name="message"
                   ></textarea>
                 </li>
                 <li>
                   <input type="hidden" className="input__field" />
-                  <button className="send__message">Send message!</button>
+                  <button type="submit" className="send__message">
+                    Send message!
+                  </button>
                 </li>
               </ul>
             </form>
