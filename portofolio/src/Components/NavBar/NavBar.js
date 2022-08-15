@@ -12,11 +12,11 @@ const NavBar = (props) => {
   const logoData = [
     {
       text: "A",
-      href: "/",
+      href: "/Portofolio",
     },
     {
       text: "Aleksandar",
-      href: "/",
+      href: "/Portofolio",
     },
   ];
 
