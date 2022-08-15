@@ -119,51 +119,38 @@ const MySkills = (props) => {
         <div className="rightside__details_myskills">
           <div className="chart">
             <span>Front-end</span>
-            {/* <footer>
-              <div style={{ width: "95%" }}></div>
-            </footer> */}
             <div className="progress">
               <div className="bar-1"></div>
             </div>
           </div>
           <div className="chart">
             <span>Back-end</span>
-            {/* <footer>
-              <div style={{ width: "75%", background: "rgb(255,34,83)" }}></div>
-            </footer> */}
             <div className="progress">
               <div className="bar-2"></div>
             </div>
           </div>
           <div className="chart">
             <span>ReactJS</span>
-            {/* <footer>
-              <div style={{ width: "80%", background: "#08fdd8" }}></div>
-            </footer> */}
             <div className="progress">
               <div className="bar-3"></div>
             </div>
           </div>
           <div className="chart">
             <span>NextJS</span>
-            {/* <footer>
-              <div
-                style={{ width: "70%", background: "rgb(210, 108, 213)" }}
-              ></div>
-            </footer> */}
             <div className="progress">
               <div className="bar-4"></div>
             </div>
           </div>
           <div className="chart">
             <span>NodeJS</span>
-            {/* <footer>
-              <div
-                style={{ width: "75%", background: "rgb(128, 230, 26)" }}
-              ></div>
-            </footer> */}
             <div className="progress">
               <div className="bar-5"></div>
+            </div>
+          </div>
+          <div className="chart">
+            <span>Angular</span>
+            <div className="progress">
+              <div className="bar-6"></div>
             </div>
           </div>
           <div className="certificates">Certificates</div>
