@@ -48,7 +48,7 @@ const NavBar = (props) => {
         <p className="name__paragraph">
           <NavLink to={logoData[1].href}>Alex</NavLink>
         </p>
-        <p>Web Developer</p>
+        <p>Fullstack Developer</p>
       </div>
       <div className="links">
         <ul className="links__details">
