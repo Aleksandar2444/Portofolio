@@ -1,6 +1,7 @@
 import "./MySkills.css";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { Link } from "react-router-dom";
+import ReferenceLetter from "../../Components/RefLetter/RefLetter";
 
 const MySkills = (props) => {
   return (
@@ -153,7 +154,9 @@ const MySkills = (props) => {
               <div className="bar-6"></div>
             </div>
           </div>
-          <div className="certificates">Certificates</div>
+          <div className="achivements">
+            <ReferenceLetter />
+          </div>
         </div>
       </div>
     </div>
