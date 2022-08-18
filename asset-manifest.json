@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.782b674b.css",
-    "main.js": "/Portofolio/static/js/main.60b0cf81.js",
+    "main.css": "/Portofolio/static/css/main.2fdfe1ba.css",
+    "main.js": "/Portofolio/static/js/main.2ba02ee5.js",
+    "static/media/ref-letter.jpg": "/Portofolio/static/media/ref-letter.679b79362caf1fc10e38.jpg",
     "static/media/daily-fashion.jpg": "/Portofolio/static/media/daily-fashion.8068424ebd3a751c80f4.jpg",
     "static/media/countrypedia.jpg": "/Portofolio/static/media/countrypedia.ce272b61d23adc2086ca.jpg",
     "static/media/find-the-word.jpg": "/Portofolio/static/media/find-the-word.7bf093d3c299359fe4bb.jpg",
@@ -16,11 +17,11 @@
     "static/media/digital-clock.jpg": "/Portofolio/static/media/digital-clock.ba3df206184b59045b7c.jpg",
     "static/media/share-btn-landscape.jpg": "/Portofolio/static/media/share-btn-landscape.ba469e3f3c0f0653011a.jpg",
     "index.html": "/Portofolio/index.html",
-    "main.782b674b.css.map": "/Portofolio/static/css/main.782b674b.css.map",
-    "main.60b0cf81.js.map": "/Portofolio/static/js/main.60b0cf81.js.map"
+    "main.2fdfe1ba.css.map": "/Portofolio/static/css/main.2fdfe1ba.css.map",
+    "main.2ba02ee5.js.map": "/Portofolio/static/js/main.2ba02ee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.782b674b.css",
-    "static/js/main.60b0cf81.js"
+    "static/css/main.2fdfe1ba.css",
+    "static/js/main.2ba02ee5.js"
   ]
 }
