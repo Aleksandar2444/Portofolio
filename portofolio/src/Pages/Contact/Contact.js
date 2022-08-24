@@ -2,11 +2,13 @@ import "./Contact.css";
 import { IoIosArrowForward, IoIosArrowBack, IoIosPin } from "react-icons/io";
 import GoogleMapReact from "google-map-react";
 import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 
 const MyMarker = ({ text }) => <div className="marker">{text}</div>;
 
 const Contact = (props) => {
+  const [messageSent, setMessageSent] = useState([]);
+
   const defaultProps = {
     center: {
       lat: 41.2537935,
@@ -29,7 +31,7 @@ const Contact = (props) => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setMessageSent(result.status);
         },
         (error) => {
           console.log(error.text);
@@ -99,6 +101,11 @@ const Contact = (props) => {
             <IoIosArrowForward />
           </div>
           <div className="form__container">
+            {messageSent === 200 && (
+              <p style={{ color: "rgb(128, 230, 26)" }}>
+                Your message has been sent.
+              </p>
+            )}
             <form ref={form} onSubmit={sendEmail} className="form">
               <ul>
                 <li>
@@ -107,14 +114,16 @@ const Contact = (props) => {
                     placeholder="Name"
                     name="from_name"
                     className="input__field"
+                    required
                   />
                 </li>
                 <li>
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Email"
                     name="from_email"
                     className="input__field"
+                    required
                   />
                 </li>
                 <li>
@@ -130,6 +139,7 @@ const Contact = (props) => {
                     className="text__area"
                     placeholder="Message"
                     name="message"
+                    required
                   ></textarea>
                 </li>
                 <li>

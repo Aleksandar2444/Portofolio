@@ -117,6 +117,15 @@ const HomePage = (props) => {
             <IoIosArrowForward />
           </div>
         </div>
+        <div className="left_side">
+          <div className="night">
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
