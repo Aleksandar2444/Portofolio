@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.8a5f4cc6.css",
+    "main.css": "/Portofolio/static/css/main.b8f55ee0.css",
     "main.js": "/Portofolio/static/js/main.8275d3da.js",
     "static/media/ref-letter.jpg": "/Portofolio/static/media/ref-letter.679b79362caf1fc10e38.jpg",
     "static/media/daily-fashion.jpg": "/Portofolio/static/media/daily-fashion.8068424ebd3a751c80f4.jpg",
@@ -17,11 +17,11 @@
     "static/media/digital-clock.jpg": "/Portofolio/static/media/digital-clock.ba3df206184b59045b7c.jpg",
     "static/media/share-btn-landscape.jpg": "/Portofolio/static/media/share-btn-landscape.ba469e3f3c0f0653011a.jpg",
     "index.html": "/Portofolio/index.html",
-    "main.8a5f4cc6.css.map": "/Portofolio/static/css/main.8a5f4cc6.css.map",
+    "main.b8f55ee0.css.map": "/Portofolio/static/css/main.b8f55ee0.css.map",
     "main.8275d3da.js.map": "/Portofolio/static/js/main.8275d3da.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a5f4cc6.css",
+    "static/css/main.b8f55ee0.css",
     "static/js/main.8275d3da.js"
   ]
 }
