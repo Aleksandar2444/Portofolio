@@ -399,6 +399,15 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .RigthSide__Container {
+    margin: 10px 5px;
+  }
+  .left_side {
+    margin: 0 30px;
+  }
+}
+
 @media only screen and (max-width: 495px) {
   .h1__info h1 {
     font-size: 30px;
@@ -430,9 +439,6 @@
 }
 
 @media only screen and (max-width: 377px) {
-  .h1__info h1 {
-    font-size: 15px;
-  }
   .button__info .btn {
     padding: 3px 7px;
     line-height: 20px;
@@ -450,9 +456,6 @@
 }
 
 @media only screen and (max-width: 359px) {
-  .h1__info h1 {
-    font-size: 14.5px;
-  }
   .button__info .btn {
     padding: 4px 7px;
     line-height: 17px;
@@ -482,5 +485,11 @@
   }
   .html__tag_p {
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 314px) {
+  .h1__info h1 {
+    font-size: 14.5px;
   }
 }
