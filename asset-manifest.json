@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.f690734c.css",
-    "main.js": "/Portofolio/static/js/main.8275d3da.js",
+    "main.css": "/Portofolio/static/css/main.df829734.css",
+    "main.js": "/Portofolio/static/js/main.497b2f8f.js",
     "static/media/ref-letter.jpg": "/Portofolio/static/media/ref-letter.679b79362caf1fc10e38.jpg",
     "static/media/daily-fashion.jpg": "/Portofolio/static/media/daily-fashion.8068424ebd3a751c80f4.jpg",
     "static/media/countrypedia.jpg": "/Portofolio/static/media/countrypedia.ce272b61d23adc2086ca.jpg",
@@ -17,11 +17,11 @@
     "static/media/digital-clock.jpg": "/Portofolio/static/media/digital-clock.ba3df206184b59045b7c.jpg",
     "static/media/share-btn-landscape.jpg": "/Portofolio/static/media/share-btn-landscape.ba469e3f3c0f0653011a.jpg",
     "index.html": "/Portofolio/index.html",
-    "main.f690734c.css.map": "/Portofolio/static/css/main.f690734c.css.map",
-    "main.8275d3da.js.map": "/Portofolio/static/js/main.8275d3da.js.map"
+    "main.df829734.css.map": "/Portofolio/static/css/main.df829734.css.map",
+    "main.497b2f8f.js.map": "/Portofolio/static/js/main.497b2f8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f690734c.css",
-    "static/js/main.8275d3da.js"
+    "static/css/main.df829734.css",
+    "static/js/main.497b2f8f.js"
   ]
 }
