@@ -197,6 +197,9 @@
   .div_tag {
     margin: 0 !important;
   }
+  .h1__work h1 {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

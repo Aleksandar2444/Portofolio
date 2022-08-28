@@ -258,86 +258,9 @@
   }
 }
 
-.left_side {
+.second {
   display: none;
 }
-/*? STARS */
-.star {
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  height: 4px;
-  background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
-  border-radius: 999px;
-  filter: drop-shadow(0 0 6px #699bff);
-  animation: tail 3s ease-in-out infinite, falling 3s ease-in-out infinite;
-}
-
-@keyframes tail {
-  0% {
-    width: 0;
-  }
-  30% {
-    width: 150px;
-  }
-  100% {
-    width: 0;
-  }
-}
-
-@keyframes falling {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(400px);
-  }
-}
-
-.star::before,
-.star::after {
-  content: "";
-  position: absolute;
-  top: calc(50% - 2px);
-  right: 0;
-  height: 4px;
-  background: linear-gradient(
-    -45deg,
-    rgba(0, 0, 255, 0),
-    #5f91ff,
-    rgba(0, 0, 255, 0)
-  );
-  border-radius: 100%;
-  transform: translateX(50%) rotateZ(45deg);
-  animation: shining 3s ease-in-out infinite;
-}
-
-@keyframes shining {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 30px;
-  }
-  100% {
-    width: 0;
-  }
-}
-
-.star::after {
-  transform: translateX(50%) rotateZ(-45deg);
-}
-
-.star:nth-child(4)::before,
-.star:nth-child(4)::after {
-  animation-delay: 1.6s;
-}
-
-.star:nth-child(5)::before,
-.star:nth-child(5)::after {
-  animation-delay: 1.8s;
-}
-/*?Stars*/
 
 @media only screen and (max-width: 881px) {
   .h1__info h1 {
@@ -348,6 +271,17 @@
 @media only screen and (max-width: 821px) {
   .h1__info h1 {
     font-size: 60px;
+  }
+  .RigthSide__Container {
+    margin: 0;
+  }
+  .second {
+    display: flex;
+    width: 100%;
+    background-color: #141313;
+    min-height: 55px;
+    margin: 0;
+    align-items: baseline;
   }
 }
 
@@ -360,27 +294,6 @@
   }
   .html__tag_p {
     margin: 0 30px;
-  }
-  .left_side {
-    display: block;
-    width: 100%;
-  }
-  .night {
-    position: absolute;
-    width: 110px;
-    height: 145px;
-    top: 0px;
-    transform: rotateZ(90deg);
-  }
-  .star:nth-child(4) {
-    top: calc(80% - 50px);
-    left: calc(50% - 200px);
-    animation-delay: 1.6s;
-  }
-  .star:nth-child(5) {
-    top: calc(140% - 100px);
-    left: calc(50% - 250px);
-    animation-delay: 1.8s;
   }
 }
 
@@ -396,15 +309,6 @@
   }
   .hero {
     display: none;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .RigthSide__Container {
-    margin: 10px 5px;
-  }
-  .left_side {
-    margin: 0 30px;
   }
 }
 

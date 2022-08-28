@@ -1,6 +1,13 @@
 import "./HomePage.css";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { Link } from "react-router-dom";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaFacebook,
+  FaInstagram,
+  FaGoogle,
+} from "react-icons/fa";
 
 const HomePage = (props) => {
   return (
@@ -117,14 +124,54 @@ const HomePage = (props) => {
             <IoIosArrowForward />
           </div>
         </div>
-        <div className="left_side">
-          <div className="night">
-            <div className="star"></div>
-            <div className="star"></div>
-            <div className="star"></div>
-            <div className="star"></div>
-            <div className="star"></div>
-          </div>
+        <div className="Icons__Container second">
+          <ul className="social__icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/aleksandar-ichev-9aab41244/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Aleksandar2444?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/icevackow/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaFacebook />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/aleksandarichev/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto: ackowwokca@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGoogle />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

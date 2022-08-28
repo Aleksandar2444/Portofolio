@@ -241,4 +241,21 @@
   .social__icons li {
     margin: 7px 12px;
   }
+  .name__details {
+    margin-bottom: 0;
+  }
+  .links__details {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 15px;
+  }
+  .links__details li {
+    border-top: none;
+  }
+  .links__details li:nth-child(4) {
+    border-bottom: none;
+  }
+  .Icons__Container {
+    display: none;
+  }
 }
