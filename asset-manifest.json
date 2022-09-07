@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portofolio/static/css/main.df829734.css",
-    "main.js": "/Portofolio/static/js/main.497b2f8f.js",
+    "main.css": "/Portofolio/static/css/main.ff60963e.css",
+    "main.js": "/Portofolio/static/js/main.e5ae11eb.js",
     "static/media/ref-letter.jpg": "/Portofolio/static/media/ref-letter.679b79362caf1fc10e38.jpg",
     "static/media/daily-fashion.jpg": "/Portofolio/static/media/daily-fashion.8068424ebd3a751c80f4.jpg",
     "static/media/countrypedia.jpg": "/Portofolio/static/media/countrypedia.ce272b61d23adc2086ca.jpg",
@@ -10,18 +10,18 @@
     "static/media/calculator.jpg": "/Portofolio/static/media/calculator.cd7c610d6610c1a217e3.jpg",
     "static/media/todo-app.jpg": "/Portofolio/static/media/todo-app.247eef8e4e6a6c89572c.jpg",
     "static/media/card-reveal-landscape.jpg": "/Portofolio/static/media/card-reveal-landscape.0e9e9c1909871bd628f3.jpg",
+    "static/media/qr-coffee-app.jpg": "/Portofolio/static/media/qr-coffee-app.b9e147ac160cb67c6156.jpg",
     "static/media/image-reflection.jpg": "/Portofolio/static/media/image-reflection.eb3b6896e4f33d2a9c18.jpg",
     "static/media/3D-cube.jpg": "/Portofolio/static/media/3D-cube.b8faf408d1bbd34bbf32.jpg",
     "static/media/progress-bar.jpg": "/Portofolio/static/media/progress-bar.f55154a4f4d913af8053.jpg",
-    "static/media/timer.jpg": "/Portofolio/static/media/timer.6435e978f4e81445b95b.jpg",
     "static/media/digital-clock.jpg": "/Portofolio/static/media/digital-clock.ba3df206184b59045b7c.jpg",
     "static/media/share-btn-landscape.jpg": "/Portofolio/static/media/share-btn-landscape.ba469e3f3c0f0653011a.jpg",
     "index.html": "/Portofolio/index.html",
-    "main.df829734.css.map": "/Portofolio/static/css/main.df829734.css.map",
-    "main.497b2f8f.js.map": "/Portofolio/static/js/main.497b2f8f.js.map"
+    "main.ff60963e.css.map": "/Portofolio/static/css/main.ff60963e.css.map",
+    "main.e5ae11eb.js.map": "/Portofolio/static/js/main.e5ae11eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.df829734.css",
-    "static/js/main.497b2f8f.js"
+    "static/css/main.ff60963e.css",
+    "static/js/main.e5ae11eb.js"
   ]
 }
