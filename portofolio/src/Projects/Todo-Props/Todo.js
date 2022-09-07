@@ -11,12 +11,12 @@ const TodoProps = (props) => {
         <p>Todo app</p>
         <p>Same todo app build in React with props.</p>
         <a
-          href="https://github.com/Aleksandar2444/Projects-v2"
+          href="https://github.com/Aleksandar2444/Projects-v2/tree/main/TODO%20-%20%20Using%20Props/todo-app"
           target="_blank"
           rel="noreferrer"
           className="btn-visit"
         >
-          Visit Now
+          Github Code
         </a>
       </div>
     </div>

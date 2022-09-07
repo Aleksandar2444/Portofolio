@@ -10,12 +10,12 @@ const DailyFashion = (props) => {
           simple syntax. Check it out!
         </p>
         <a
-          href="https://github.com/Aleksandar2444/Projects-v2"
+          href="https://github.com/Aleksandar2444/Projects-v2/tree/main/E-store%20-%20React.js%20-%20Redux/e-store"
           target="_blank"
           rel="noreferrer"
           className="btn-visit"
         >
-          Visit Now
+          Github Code
         </a>
       </div>
     </div>

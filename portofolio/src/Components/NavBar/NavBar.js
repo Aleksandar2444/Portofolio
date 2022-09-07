@@ -15,7 +15,7 @@ const NavBar = (props) => {
       href: "/Portofolio",
     },
     {
-      text: "Aleksandar",
+      text: "Alex",
       href: "/Portofolio",
     },
   ];
@@ -46,7 +46,7 @@ const NavBar = (props) => {
           <NavLink to={logoData[0].href}>A</NavLink>
         </span>
         <p className="name__paragraph">
-          <NavLink to={logoData[1].href}>Alex</NavLink>
+          <NavLink to={logoData[1].href}>{logoData[1].text}</NavLink>
         </p>
         <p>Fullstack Developer</p>
       </div>

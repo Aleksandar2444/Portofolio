@@ -10,14 +10,24 @@ const Oryx = (props) => {
           small business without owning a product line, a brand, or a
           manufacturing facility.
         </p>
-        <a
-          href="https://dsw1-deploy.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="btn-visit"
-        >
-          Visit Now
-        </a>
+        <div className="a__links">
+          <a
+            href="https://dsw1-deploy.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-visit"
+          >
+            Visit Now
+          </a>
+          <a
+            href="https://github.com/Aleksandar2444/Projects-v2/tree/main/ORYX%20-%20Buy%20now%20or%20cry%20later"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-visit"
+          >
+            Github Code
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -11,12 +11,12 @@ const TodoRedux = (props) => {
         <p>Todo app</p>
         <p>Simple todo app using Redux.</p>
         <a
-          href="https://github.com/Aleksandar2444/Projects-v2"
+          href="https://github.com/Aleksandar2444/Projects-v2/tree/main/TODO%20-%20React.js%20-%20Redux/todo-app"
           target="_blank"
           rel="noreferrer"
           className="btn-visit"
         >
-          Visit Now
+          Github Code
         </a>
       </div>
     </div>

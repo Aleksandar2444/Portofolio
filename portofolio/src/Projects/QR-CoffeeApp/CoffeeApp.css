@@ -1,0 +1,9 @@
+.img-10 {
+  background: url("../../images/qr-coffee-app.jpg") round no-repeat;
+}
+
+.a__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

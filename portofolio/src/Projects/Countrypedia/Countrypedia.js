@@ -6,16 +6,16 @@ const Countrypedia = (props) => {
       <div className="my_content">
         <p>Countrypedia</p>
         <p>
-          Countrypedia app build with React looks like Wikipedia but for
-          countries only 😋.
+          Countrypedia app build with React looks like Wikipedia but only for
+          countries😋.
         </p>
         <a
-          href="https://github.com/Aleksandar2444/Projects-v2"
+          href="https://github.com/Aleksandar2444/Projects-v2/tree/main/Countrypedia%20-%20React.js%20-%20Using%20Props/countrypedia"
           target="_blank"
           rel="noreferrer"
           className="btn-visit"
         >
-          Visit Now
+          Github Code
         </a>
       </div>
     </div>

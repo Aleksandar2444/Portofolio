@@ -9,11 +9,11 @@ import Cube from "../../Projects/3Dcube/Cube";
 import ProgressBar from "../../Projects/ProgressBar/ProgressBar";
 import CardReveal from "../../Projects/CardReveal/CardReveal";
 import DigitalClock from "../../Projects/DigitalClock/DigitalClock";
-import Timer from "../../Projects/Timer/Timer";
 import DailyFashion from "../../Projects/DailyFashion/DailyFashion";
 import Countrypedia from "../../Projects/Countrypedia/Countrypedia";
 import TodoRedux from "../../Projects/Todo-Redux/Todo";
 import TodoProps from "../../Projects/Todo-Props/Todo";
+import CoffeeApp from "../../Projects/QR-CoffeeApp/CoffeeApp";
 
 const Work = (props) => {
   return (
@@ -67,6 +67,7 @@ const Work = (props) => {
               <span>Main projects</span>
               <div className="project_container">
                 <Oryx />
+                <CoffeeApp />
                 <DailyFashion />
                 <Countrypedia />
                 <TodoRedux />
@@ -83,7 +84,6 @@ const Work = (props) => {
                 <ProgressBar />
                 <CardReveal />
                 <DigitalClock />
-                <Timer />
                 <TodoProps />
               </div>
             </div>

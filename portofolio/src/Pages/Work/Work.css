@@ -104,6 +104,9 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(142, 142, 148, 0.25) 0px 50px 100px -20px,
+    rgba(189, 182, 182, 0.3) 0px 30px 60px -30px,
+    rgba(208, 210, 212, 0.35) 0px -2px 6px 0px inset;
 }
 
 .projects_v1 {
@@ -198,7 +201,14 @@
     margin: 0 !important;
   }
   .h1__work h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .project_container {
+    gap: 5px;
+  }
+  .main_projects span,
+  .projects_v1 span {
+    border-bottom: 2px solid #141313;
   }
 }
 
