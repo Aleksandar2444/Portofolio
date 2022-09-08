@@ -320,6 +320,9 @@
     padding: 5px 10px;
     line-height: 25px;
   }
+  .A {
+    font-size: 34px;
+  }
 }
 
 @media only screen and (max-width: 436px) {
@@ -339,6 +342,9 @@
   }
   .p__info p {
     font-size: 15px;
+  }
+  .A {
+    font-size: 26px;
   }
 }
 
