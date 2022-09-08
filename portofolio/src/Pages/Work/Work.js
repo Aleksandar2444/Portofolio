@@ -14,6 +14,7 @@ import Countrypedia from "../../Projects/Countrypedia/Countrypedia";
 import TodoRedux from "../../Projects/Todo-Redux/Todo";
 import TodoProps from "../../Projects/Todo-Props/Todo";
 import CoffeeApp from "../../Projects/QR-CoffeeApp/CoffeeApp";
+import NgRx from "../../Projects/NgRx-Example/NgRx";
 
 const Work = (props) => {
   return (
@@ -71,6 +72,7 @@ const Work = (props) => {
                 <DailyFashion />
                 <Countrypedia />
                 <TodoRedux />
+                <NgRx />
               </div>
             </div>
             <div className="projects_v1">
