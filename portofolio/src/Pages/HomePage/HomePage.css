@@ -248,6 +248,7 @@
   border-left: 2px solid rgb(128, 230, 26);
   animation: typing 3s steps(8) infinite;
 }
+
 @keyframes typing {
   40%,
   60% {

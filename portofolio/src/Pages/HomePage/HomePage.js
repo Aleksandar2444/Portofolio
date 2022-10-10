@@ -10,8 +10,35 @@ import {
 } from "react-icons/fa";
 
 const HomePage = (props) => {
+  // document.body.addEventListener("mousemove", (e) => {
+  //   const element = document.createElement("div");
+  //   element.className = "circle";
+
+  //   element.style.left = e.clientX - 10 + "px";
+  //   element.style.top = e.clientY - 10 + "px";
+
+  //   document.body.append(element);
+
+  //   setTimeout(() => {
+  //     element.remove();
+  //   }, 900);
+  // });
+  const onMouseMove = (e) => {
+    const element = document.createElement("div");
+    element.className = "circle";
+
+    element.style.left = e.clientX - 10 + "px";
+    element.style.top = e.clientY - 10 + "px";
+
+    document.body.append(element);
+
+    setTimeout(() => {
+      element.remove();
+    }, 900);
+  };
+
   return (
-    <div className="HomePage">
+    <div className="HomePage" onMouseMove={(e) => onMouseMove(e)}>
       <div className="RigthSide__Container">
         <div className="rightside__details">
           <div className="html__tag">
