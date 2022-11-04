@@ -10,19 +10,6 @@ import {
 } from "react-icons/fa";
 
 const HomePage = (props) => {
-  // document.body.addEventListener("mousemove", (e) => {
-  //   const element = document.createElement("div");
-  //   element.className = "circle";
-
-  //   element.style.left = e.clientX - 10 + "px";
-  //   element.style.top = e.clientY - 10 + "px";
-
-  //   document.body.append(element);
-
-  //   setTimeout(() => {
-  //     element.remove();
-  //   }, 900);
-  // });
   const onMouseMove = (e) => {
     const element = document.createElement("div");
     element.className = "circle";
@@ -104,20 +91,11 @@ const HomePage = (props) => {
             <IoIosArrowForward />
           </div>
           <div className="p__info">
-            <p>Fullstack Developer</p>
-            <div className="hero">
-              <div className="static__text">I'am a</div>
-              <ul className="dynamic__text">
-                <li>
-                  <span>Fullstack Developer</span>
-                </li>
-                <li>
-                  <span>Positive person</span>
-                </li>
-                <li>
-                  <span>fan of OpenAI</span>
-                </li>
-              </ul>
+            <div className="intro">
+              I am
+              <span>Fullstack Developer</span>
+              <span>Positive person</span>
+              <span>fan of OpenAI</span>
             </div>
           </div>
           <div className="html__tag_p">

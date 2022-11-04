@@ -277,6 +277,7 @@
   }
   .name__details {
     margin-bottom: 0;
+    padding-top: 10px;
   }
   .links__details {
     flex-direction: row;
@@ -291,5 +292,18 @@
   }
   .Icons__Container {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .name__details span {
+    display: none;
+  }
+  .LeftSide__Container .name__details p a {
+    color: rgb(128, 230, 26);
+    font-size: 35px;
+  }
+  .LeftSide__Container .name__details p {
+    font-size: 15px;
   }
 }
