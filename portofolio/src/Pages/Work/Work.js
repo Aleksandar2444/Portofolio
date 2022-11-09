@@ -15,6 +15,8 @@ import TodoRedux from "../../Projects/Todo-Redux/Todo";
 import TodoProps from "../../Projects/Todo-Props/Todo";
 import CoffeeApp from "../../Projects/QR-CoffeeApp/CoffeeApp";
 import NgRx from "../../Projects/NgRx-Example/NgRx";
+import Mean from "../../Projects/MEAN/Mean";
+import RealTimeChatApp from "../../Projects/RealTimeChatApp/RealTimeChatApp";
 
 const Work = (props) => {
   return (
@@ -72,7 +74,9 @@ const Work = (props) => {
                 <DailyFashion />
                 <Countrypedia />
                 <TodoRedux />
+                <RealTimeChatApp />
                 <NgRx />
+                <Mean />
               </div>
             </div>
             <div className="projects_v1">
